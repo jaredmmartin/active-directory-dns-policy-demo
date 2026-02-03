@@ -97,7 +97,7 @@ answers are returned.
 ## Usage
 
 ```pwsh
-.\dns-policy.ps1 -ZoneName 'local' -InsideSubnetCidr '10.0.0.0/8' -OutsideSubnetCidr '10.0.3.64/26'
+.\dns-policy.ps1 -ZoneName 'local' -InsideSubnetCidr '10.0.3.0/26' -OutsideSubnetCidr '10.0.3.64/26'
 ```
 
 ## Useful documentation
